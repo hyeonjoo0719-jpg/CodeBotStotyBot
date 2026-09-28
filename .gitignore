@@ -1,0 +1,16 @@
+# 모든 파일 무시
+*
+
+# 하위 폴더 탐색 허용
+!*/
+
+# .py, .ipynb 파일만 추적
+!*.py
+!*.ipynb
+!.gitignore
+
+# 가상환경 / 캐시 / 체크포인트 제외
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/

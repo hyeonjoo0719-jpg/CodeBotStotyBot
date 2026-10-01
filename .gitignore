@@ -9,8 +9,13 @@
 !*.ipynb
 !.gitignore
 
+# 코드봇 웹서비스 (React/FastAPI) 파일 추적
+!codebot_web/**
+
 # 가상환경 / 캐시 / 체크포인트 제외
 .venv/
 venv/
 __pycache__/
 .ipynb_checkpoints/
+node_modules/
+dist/
